@@ -1,0 +1,91 @@
+.hero {
+  @media screen and (min-width: 320px) {
+    width: 480px;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    background: $primary-background;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url(../images/background_image_mobile.jpg);
+    background-repeat: no-repeat;
+    padding-top: 118px;
+    padding-bottom: 198px;
+
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      .hero {
+        background-image: url('/images/background_image_mobile2x.jpg');
+      }
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url(/images/background_image_tablet.jpg);
+    background-repeat: no-repeat;
+    padding-top: 118px;
+    padding-bottom: 118px;
+
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      .hero {
+        background-image: url('/images/background_image_tablet2x.jpg');
+      }
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 1600px;
+    height: 600px;
+    background: $primary-background;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url(/images/background_image.jpg);
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      .hero {
+        background-image: url('/images/background_image@2x.jpg');
+      }
+    }
+  }
+
+  &__title {
+    text-transform: uppercase;
+    color: $white-color;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.62;
+    letter-spacing: 0.06em;
+    text-align: center;
+
+    margin-top: 0;
+    margin-bottom: 30px;
+
+    @media screen and (min-width: 768px) {
+      font-size: 26px;
+      line-height: 1.62;
+    }
+
+    @media screen and (min-width: 1200px) {
+      font-size: 44px;
+      line-height: 1.36;
+    }
+  }
+
+  &__button {
+    background: $blue-color;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    min-width: 200px;
+    height: 50px;
+
+    @extend %button-font;
+
+    padding: 10px 32px 10px 32px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+    border: 0;
+  }
+}

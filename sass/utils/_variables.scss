@@ -1,0 +1,66 @@
+$primary-color: #212121;
+$white-color: #ffffff;
+$grey-color: #757575;
+$rgbawhite-color: rgba(255, 255, 255, 0.6);
+$grey-background: #f5f4fa;
+$primary-background: #2f303a;
+$blue-color: #2196f3;
+$grey-social-links: #afb1b8;
+
+%logo-font {
+  font-family: Raleway, sans-serif;
+  color: $blue-color;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.17;
+  text-decoration: none;
+  outline: none;
+}
+
+%page-header-font {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+%button-font {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  color: $white-color;
+  letter-spacing: 0.06em;
+}
+
+%h2-font {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  text-align: center;
+  margin-top: 0;
+}
+
+%team-font {
+  font-size: 16px;
+  line-height: 1.19;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+%footer-font-address {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+%footer-font-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $white-color;
+}

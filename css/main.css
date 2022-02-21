@@ -355,31 +355,9 @@ body {
 /* Хэдер */
 .page-header {
   border-bottom: 1px solid #ececec;
+  margin-right: auto;
+  margin-left: auto;
   /* Хэдер контакты */
-}
-
-@media screen and (max-width: 768px) {
-  .page-header {
-    width: 480px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .page-header {
-    width: 768px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .page-header {
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-  }
 }
 
 .page-header__header {
@@ -1062,22 +1040,14 @@ body {
 }
 
 .features {
-  width: 480px;
   margin-right: auto;
   margin-left: auto;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-@media screen and (min-width: 768px) {
-  .features {
-    width: 768px;
-  }
-}
-
 @media screen and (min-width: 1200px) {
   .features {
-    width: 100%;
     padding-top: 94px;
     padding-bottom: 0;
   }
@@ -1204,7 +1174,6 @@ body {
 
 @media screen and (min-width: 1200px) {
   .examples {
-    width: 100%;
     display: block;
     padding-top: 94px;
     padding-bottom: 94px;
@@ -1284,22 +1253,14 @@ body {
 
 .team {
   background-color: #f5f4fa;
-  width: 480px;
   margin-right: auto;
   margin-left: auto;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-@media screen and (min-width: 768px) {
-  .team {
-    width: 768px;
-  }
-}
-
 @media screen and (min-width: 1200px) {
   .team {
-    width: 100%;
     padding-top: 94px;
     padding-bottom: 94px;
   }
@@ -1472,22 +1433,14 @@ body {
 }
 
 .clients {
-  width: 480px;
   margin-right: auto;
   margin-left: auto;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-@media screen and (min-width: 768px) {
-  .clients {
-    width: 768px;
-  }
-}
-
 @media screen and (min-width: 1200px) {
   .clients {
-    width: 100%;
     padding-top: 94px;
     padding-bottom: 94px;
   }
@@ -1573,22 +1526,14 @@ body {
 }
 
 .works {
-  width: 480px;
   margin-right: auto;
   margin-left: auto;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-@media screen and (min-width: 768px) {
-  .works {
-    width: 768px;
-  }
-}
-
 @media screen and (min-width: 1200px) {
   .works {
-    width: 100%;
     padding-top: 94px;
     padding-bottom: 94px;
   }
@@ -1821,21 +1766,8 @@ body {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
-  width: 480px;
   margin-right: auto;
   margin-left: auto;
-}
-
-@media screen and (min-width: 768px) {
-  .page-footer {
-    width: 768px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .page-footer {
-    width: 100%;
-  }
 }
 
 .page-footer__flexbox {
@@ -2149,21 +2081,8 @@ body {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
-  width: 480px;
   margin-right: auto;
   margin-left: auto;
-}
-
-@media screen and (min-width: 768px) {
-  .page-footer {
-    width: 768px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .page-footer {
-    width: 100%;
-  }
 }
 
 .page-footer__flexbox {

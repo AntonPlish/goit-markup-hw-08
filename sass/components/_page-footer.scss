@@ -2,17 +2,8 @@
   background-color: $primary-background;
   padding-top: 60px;
   padding-bottom: 60px;
-  width: 480px;
   margin-right: auto;
   margin-left: auto;
-
-  @media screen and (min-width: 768px) {
-    width: 768px;
-  }
-
-  @media screen and (min-width: 1200px) {
-    width: 100%;
-  }
 
   &__flexbox {
     display: block;

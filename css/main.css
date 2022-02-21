@@ -376,7 +376,7 @@ body {
 
 @media screen and (min-width: 1200px) {
   .page-header {
-    width: 1600px;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
   }
@@ -1077,7 +1077,7 @@ body {
 
 @media screen and (min-width: 1200px) {
   .features {
-    width: 1600px;
+    width: 100%;
     padding-top: 94px;
     padding-bottom: 0;
   }
@@ -1204,7 +1204,7 @@ body {
 
 @media screen and (min-width: 1200px) {
   .examples {
-    width: 1600px;
+    width: 100%;
     display: block;
     padding-top: 94px;
     padding-bottom: 94px;
@@ -1299,7 +1299,7 @@ body {
 
 @media screen and (min-width: 1200px) {
   .team {
-    width: 1600px;
+    width: 100%;
     padding-top: 94px;
     padding-bottom: 94px;
   }
@@ -1487,7 +1487,7 @@ body {
 
 @media screen and (min-width: 1200px) {
   .clients {
-    width: 1600px;
+    width: 100%;
     padding-top: 94px;
     padding-bottom: 94px;
   }
@@ -1588,7 +1588,7 @@ body {
 
 @media screen and (min-width: 1200px) {
   .works {
-    width: 1600px;
+    width: 100%;
     padding-top: 94px;
     padding-bottom: 94px;
   }
@@ -1834,7 +1834,7 @@ body {
 
 @media screen and (min-width: 1200px) {
   .page-footer {
-    width: 1600px;
+    width: 100%;
   }
 }
 
@@ -1962,6 +1962,7 @@ body {
 @media screen and (min-width: 1200px) {
   .page-footer__join {
     margin-top: 12px;
+    text-align: start;
   }
 }
 
@@ -2161,7 +2162,7 @@ body {
 
 @media screen and (min-width: 1200px) {
   .page-footer {
-    width: 1600px;
+    width: 100%;
   }
 }
 
@@ -2289,6 +2290,7 @@ body {
 @media screen and (min-width: 1200px) {
   .page-footer__join {
     margin-top: 12px;
+    text-align: start;
   }
 }
 
@@ -2474,7 +2476,7 @@ body {
 .header-mobile {
   opacity: 0;
   pointer-events: none;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 1;

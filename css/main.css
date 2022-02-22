@@ -659,22 +659,20 @@ body {
   }
 }
 
-@media screen and (min-width: 480px) {
-  .hero {
-    width: 480px;
-    height: 400px;
-    margin-right: auto;
-    margin-left: auto;
-    background: #2f303a;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/background_image_mobile.jpg);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background_image_mobile.jpg);
-    background-repeat: no-repeat;
-    padding-top: 118px;
-    padding-bottom: 198px;
-  }
+.hero {
+  width: 480px;
+  height: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #2f303a;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/background_image_mobile.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background_image_mobile.jpg);
+  background-repeat: no-repeat;
+  padding-top: 118px;
+  padding-bottom: 198px;
 }
 
-@media screen and (min-width: 480px) and (min-device-pixel-ratio: 2), screen and (min-width: 480px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 480px) and (min-resolution: 192dpi), screen and (min-width: 480px) and (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero .hero {
     background-image: url("../images/background_image_mobile2x.jpg");
   }

@@ -94,14 +94,12 @@
   &__links {
     display: flex;
     list-style: none;
-    margin: 0 32px 30px 32px;
+    margin: 0 32px 24px 32px;
     padding-left: 0;
     justify-content: center;
 
-    @media screen and (max-width: 1199px) {
-      margin-right: 0;
-      margin-left: 0;
-      margin-bottom: 24px;
+    @media screen and (min-width: 1200px) {
+      margin-bottom: 30px;
     }
   }
 

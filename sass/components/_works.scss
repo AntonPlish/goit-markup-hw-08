@@ -83,8 +83,8 @@
   }
 
   &__item {
-    width: 450px;
-    height: 404px;
+    max-width: 450px;
+    height: 100%;
     margin: 15px;
 
     transition-property: box-shadow;
@@ -92,11 +92,11 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
     @media screen and (min-width: 768px) {
-      width: 354px;
+      max-width: 354px;
     }
 
     @media screen and (min-width: 1200px) {
-      width: 370px;
+      max-width: 370px;
     }
   }
 
@@ -127,16 +127,8 @@
 
   &__image {
     display: block;
-    width: 450px;
+    width: 100%;
     margin-right: 0;
-
-    @media screen and (min-width: 768px) {
-      width: 354px;
-    }
-
-    @media screen and (min-width: 1200px) {
-      width: 370px;
-    }
   }
 
   &__filled {

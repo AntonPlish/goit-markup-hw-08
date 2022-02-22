@@ -1362,7 +1362,7 @@ body {
           justify-content: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1199px) {
   .team__links {
     margin-right: 0;
     margin-left: 0;

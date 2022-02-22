@@ -1347,12 +1347,7 @@ body {
 
 .team__text {
   color: #757575;
-}
-
-@media screen and (max-width: 768px) {
-  .team__text {
-    padding-bottom: 0;
-  }
+  padding-bottom: 0;
 }
 
 .team__links {

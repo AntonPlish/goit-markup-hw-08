@@ -660,7 +660,7 @@ body {
 }
 
 .hero {
-  width: 480px;
+  max-width: 480px;
   height: 400px;
   margin-right: auto;
   margin-left: auto;
@@ -680,7 +680,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .hero {
-    width: 768px;
+    max-width: 768px;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/background_image_tablet.jpg);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background_image_tablet.jpg);
     background-repeat: no-repeat;
@@ -697,7 +697,7 @@ body {
 
 @media screen and (min-width: 1200px) {
   .hero {
-    width: 1600px;
+    max-width: 1600px;
     height: 600px;
     background: #2f303a;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/background_image.jpg);
@@ -2398,7 +2398,7 @@ body {
   left: 0;
   z-index: 1;
   width: 100%;
-  min-height: 900px;
+  height: 100%;
   background-color: #ffffff;
   padding: 48px 40px 48px 40px;
 }
@@ -2437,10 +2437,6 @@ body {
   padding-bottom: 32px;
 }
 
-.header-mobile__item:last-child {
-  margin-bottom: 302px;
-}
-
 .header-mobile__link:hover, .header-mobile__link:focus {
   color: #2196f3;
   outline: none;
@@ -2453,17 +2449,15 @@ body {
 .header-mobile__contacts {
   display: block;
   list-style: none;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: 250px;
+  margin-bottom: 134px;
   padding-left: 0;
+  position: absolute;
+  bottom: 0;
 }
 
 .header-mobile__item-contact:not(:last-child) {
   padding-bottom: 32px;
-}
-
-.header-mobile__item-contact:last-child {
-  padding-bottom: 64px;
 }
 
 .header-mobile__mail, .header-mobile__tel {
@@ -2503,9 +2497,11 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0;
+  margin: 0 0 48px 0;
   padding: 0;
   text-decoration: none;
+  position: absolute;
+  bottom: 0;
 }
 
 .header-mobile__sociallink {

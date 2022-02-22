@@ -11,7 +11,7 @@
   left: 0;
   z-index: 1;
   width: 100%;
-  min-height: 900px;
+  height: 100%;
   background-color: $white-color;
   padding: 48px 40px 48px 40px;
 
@@ -43,7 +43,6 @@
   }
 
   &__item:last-child {
-    margin-bottom: 302px;
   }
 
   &__link:hover,
@@ -59,18 +58,20 @@
   &__contacts {
     display: block;
     list-style: none;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 250px;
+    margin-bottom: 134px;
     padding-left: 0;
+    position: absolute;
+    bottom: 0;
   }
 
   &__item-contact:not(:last-child) {
     padding-bottom: 32px;
   }
 
-  &__item-contact:last-child {
-    padding-bottom: 64px;
-  }
+  // &__item-contact:last-child {
+  //   padding-bottom: 64px;
+  // }
 
   &__mail,
   &__tel {
@@ -109,9 +110,11 @@
   &__social {
     list-style: none;
     display: flex;
-    margin: 0;
+    margin: 0 0 48px 0;
     padding: 0;
     text-decoration: none;
+    position: absolute;
+    bottom: 0;
   }
 
   &__sociallink {

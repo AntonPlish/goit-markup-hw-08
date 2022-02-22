@@ -1,5 +1,5 @@
 .hero {
-  width: 480px;
+  max-width: 480px;
   height: 400px;
   margin-right: auto;
   margin-left: auto;
@@ -17,7 +17,7 @@
   }
 
   @media screen and (min-width: 768px) {
-    width: 768px;
+    max-width: 768px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url(../images/background_image_tablet.jpg);
     background-repeat: no-repeat;
@@ -32,7 +32,7 @@
   }
 
   @media screen and (min-width: 1200px) {
-    width: 1600px;
+    max-width: 1600px;
     height: 600px;
     background: $primary-background;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),

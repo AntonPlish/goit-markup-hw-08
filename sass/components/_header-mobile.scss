@@ -15,6 +15,13 @@
   background-color: $white-color;
   padding: 48px 40px 48px 40px;
 
+  &__flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: calc(100vh - 100px);
+  }
+
   &__nav {
     display: block;
     list-style: none;
@@ -42,9 +49,6 @@
     padding-bottom: 32px;
   }
 
-  // &__item:last-child {
-  // }
-
   &__link:hover,
   &__link:focus {
     color: $blue-color;
@@ -58,19 +62,17 @@
   &__contacts {
     display: block;
     list-style: none;
-    margin-bottom: 134px;
+    margin-bottom: 0;
     padding-left: 0;
-    position: absolute;
-    bottom: 0;
   }
 
   &__item-contact:not(:last-child) {
     padding-bottom: 32px;
   }
 
-  // &__item-contact:last-child {
-  //   padding-bottom: 64px;
-  // }
+  &__item-contact:last-child {
+    padding-bottom: 64px;
+  }
 
   &__mail,
   &__tel {
@@ -109,11 +111,9 @@
   &__social {
     list-style: none;
     display: flex;
-    margin: 0 0 48px 0;
+    margin: 0;
     padding: 0;
     text-decoration: none;
-    position: absolute;
-    bottom: 0;
   }
 
   &__sociallink {

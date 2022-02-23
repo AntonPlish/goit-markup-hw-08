@@ -2383,7 +2383,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  min-height: calc(100vh - 100px);
+  min-height: calc(100vh - 140px);
 }
 
 .header-mobile__nav {
